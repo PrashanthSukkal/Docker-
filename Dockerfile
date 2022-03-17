@@ -8,7 +8,7 @@ agent any
 stages {
 stage('CFrom Ukraine') { 
 steps {
-git 'https://github.com/YourGithubAccount/YourGithubRepository.git'
+git 'https://github.com/PrashanthSukkal/Docker-.git'
 }
 } 
 stage('Building our image') {
