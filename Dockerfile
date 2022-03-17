@@ -21,7 +21,7 @@ dockerImage = docker.build registry + ":$BUILD_NUMBER"
 stage('Deploy our image') {
 steps {
 script { 
-docker.withRegistry( 'prashanthsukkal@gmail.com', Kavitha$ukkal66 ) {
+docker.withRegistry( 'prashanthsukkal/seventeenthreetwentytwentyone', Kavitha$ukkal66 ) {
 dockerImage.push()
 }
 }
