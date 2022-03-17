@@ -6,7 +6,7 @@ dockerImage = ''
 }
 agent any
 stages {
-stage('CFrom Ukraine') { 
+stage { 
 steps {
 git 'https://github.com/PrashanthSukkal/Docker-.git'
 }
